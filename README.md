@@ -21,38 +21,19 @@ where `debayer_method` can be one of the following: "VNG", "Bilinear". We recomm
   
 The following images are the result of converting a raw image to a fits file using different debayer methods.
 
-<table align="center" style="border:1px solid white;margin-left:auto;margin-right:auto;margin-upper:auto;width: 80%;", border="1">
-<caption style="caption-side:bottom">Full Image Comparsion</caption>
-  <tr>
-    <td style="text-align:center"> Bilinear</td>
-    <td align="center"> <img src=tests/debayer_examples/full/BL.jpg></td>
-  </tr>
-  <tr>
-    <td style="text-align:center"> VNG</td>
-    <td align="center"> <img src=tests/debayer_examples/full/VNG.jpg></td>
-  </tr>
-  <tr>
-    <td style="text-align:center"> VNG (by Pixinsight)</td>
-    <td align="center"> <img src=tests/debayer_examples/full/VNG_PI.jpg></td>
-  </tr>
-</table>
+|     Debayer Method      |                             Image                             |
+| :---------------------: | :-----------------------------------------------------------: |
+|      **Bilinear**       |   <img width=250px  src=tests/debayer_examples/full/BL.jpg>   |
+|         **VNG**         |  <img width=250px  src=tests/debayer_examples/full/VNG.jpg>   |
+| **VNG (by Pixinsight)** | <img width=250px  src=tests/debayer_examples/full/VNG_PI.jpg> |
 
 ---
 
-<table align="center" style="border:1px solid white;margin-left:auto;margin-right:auto;margin-upper:auto;width: 80%;", border="1">
-<caption style="caption-side:bottom">Cropped Image Comparsion</caption>
-  <tr>
-    <td align="center"> <img src=tests/debayer_examples/cropped/BL.png></td>
-    <td align="center"> <img src=tests/debayer_examples/cropped/VNG.png></td>
-    <td align="center"> <img src=tests/debayer_examples/cropped/VNG_PI.png></td>
-   </tr>
-   <tr>
-   <td style="text-align:center"> Bilinear</td>
-   <td style="text-align:center"> VNG</td>
-   <td style="text-align:center"> VNG (by Pixinsight)</td>
-   </tr>
-</table>
-
+|     Debayer Method      |                              Image                               |
+| :---------------------: | :--------------------------------------------------------------: |
+|      **Bilinear**       |   <img width=250px  src=tests/debayer_examples/cropped/BL.png>   |
+|         **VNG**         |  <img width=250px  src=tests/debayer_examples/cropped/VNG.png>   |
+| **VNG (by Pixinsight)** | <img width=250px  src=tests/debayer_examples/cropped/VNG_PI.png> |
 ---
 
 ## Contributing
