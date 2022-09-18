@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+raw2fits/__init__.py
+raw2fits/debayer.py
+raw2fits/image.py
+raw2fits.egg-info/PKG-INFO
+raw2fits.egg-info/SOURCES.txt
+raw2fits.egg-info/dependency_links.txt
+raw2fits.egg-info/top_level.txt
