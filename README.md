@@ -15,7 +15,7 @@ from raw2fits.image import Image
 img = Image(path='path/to/raw/image', debayer_method="VNG")
 img.save_fits(image_type="LIGHT", path='path/to/save/fits/image')
 ```
-where `debayer_method` can be one of the following: "VNG", "Bilinear". We recommend using "VNG" for better results.
+where `debayer_method` can be one of the following: "VNG", "Bilinear". We recommend using "VNG" for better results, this is also the default method used by PixInsight and this package. `raw2fits` supports 16-bit VNG debayer method, which is not supported by OpenCV yet.
 
 ### Comparsion between different debayer methods
   
