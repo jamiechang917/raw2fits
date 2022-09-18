@@ -29,5 +29,5 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Astronomy",
     ],
     python_requires='>=3.6',
-    license="MIT",
+    license="MIT"
 )

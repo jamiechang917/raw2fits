@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: raw2fits
-Version: 1.0.0
+Version: 1.0.1
 Summary: Convert raw images to fits
 Home-page: https://github.com/jamiechang917/raw2fits
 Author: Jamie Chang

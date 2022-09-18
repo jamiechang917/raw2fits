@@ -1,4 +1,4 @@
-from debayer import *
+from raw2fits.debayer import *
 import rawpy
 import exifread
 from astropy.io import fits
