@@ -1,0 +1,9 @@
+numpy
+astropy
+rawpy
+numba
+tqdm
+matplotlib
+numba_progress
+exifread
+opencv-python

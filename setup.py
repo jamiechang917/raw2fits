@@ -24,10 +24,21 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Science/Research",
         "Topic :: Scientific/Engineering :: Astronomy",
     ],
     python_requires='>=3.6',
-    license="MIT"
+    license="MIT",
+    install_requires=[
+        "numpy",
+        "astropy",
+        "rawpy",
+        "numba",
+        "tqdm",
+        "matplotlib",
+        "numba_progress",
+        "exifread",
+        "opencv-python"
+    ]
 )

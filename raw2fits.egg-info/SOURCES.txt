@@ -7,4 +7,5 @@ raw2fits/image.py
 raw2fits.egg-info/PKG-INFO
 raw2fits.egg-info/SOURCES.txt
 raw2fits.egg-info/dependency_links.txt
+raw2fits.egg-info/requires.txt
 raw2fits.egg-info/top_level.txt
